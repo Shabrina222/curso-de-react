@@ -24,6 +24,7 @@ function App() {
       const data = await response.json();
       setTasks(data);
     };
+
     //SE QUISER, VOCÊ PODE CHARMAR UMA API PARA PEGAR AS TAREFAS
     //fetchTasks();
   }, []);
